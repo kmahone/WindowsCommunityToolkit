@@ -10,6 +10,7 @@
       xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
       xmlns:animations="using:Microsoft.Toolkit.Uwp.UI.Animations"
       xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+      xmlns:testhelpers="using:AppTestAutomationHelpers"
       extensions:StatusBarExtensions.IsVisible="False"
       extensions:TitleBarExtensions.BackgroundColor="{StaticResource Brand-Color}"
       extensions:TitleBarExtensions.ButtonBackgroundColor="{StaticResource Brand-Color}"
@@ -53,6 +54,8 @@
                            Source="Assets/Photos/Backgrounds/hero.jpg"/>
                 </winui:ParallaxView>
                 <Frame x:Name="NavigationFrame" />
+                <testhelpers:TestAutomationHelpersPanel />
+
                 <Grid>
                     <Border x:Name="ContentShadow"
                             Tapped="ContentShadow_Tapped"

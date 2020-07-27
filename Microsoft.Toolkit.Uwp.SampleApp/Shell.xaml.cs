@@ -21,6 +21,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         public Shell()
         {
             InitializeComponent();
+            //var panel = new AppTestAutomationHelpers.TestAutomationHelpersPanel();
             Current = this;
         }
 
@@ -62,7 +63,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         /// <param name="title">Title to set</param>
         public void SetAppTitle(string title)
         {
-            ApplicationViewExtensions.SetTitle(this, title);
+            //ApplicationViewExtensions.SetTitle(this, title);
         }
 
         /// <summary>

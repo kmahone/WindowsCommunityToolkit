@@ -27,7 +27,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
             // Reset app back to normal.
             StatusBarExtensions.SetIsVisible(this, false);
 
-            ApplicationViewExtensions.SetTitle(this, string.Empty);
+            //ApplicationViewExtensions.SetTitle(this, string.Empty);
 
             var lightGreyBrush = (Color)Application.Current.Resources["Grey-04"];
             var brandColor = (Color)Application.Current.Resources["Brand-Color"];
